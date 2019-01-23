@@ -1,0 +1,322 @@
+.logo{
+	height: 100px;
+	width: 100px;
+}
+
+.search {
+	position: relative;
+	left: 10px;
+	width: 70%;
+    padding:6px 15px;
+    background-color: white;
+    border:2px solid #D2CCCC;
+    border-radius: 10px 0 0 10px;
+    color: #D2CCCC;
+}
+.btn{
+    padding:6px 15px;
+    border:2px solid #fd7d16;
+    background-color:#fd7d16;
+    color:#fff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.masuk{
+    padding:6px 15px;
+    border: 2px solid #fd7d16;
+    border-radius: 10px;
+    color: #fd7d16;
+}
+
+.daftar{
+	text-decoration: none;
+    padding:6px 15px;
+    border: 2px solid #fd7d16;
+    background-color: #fd7d16;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.green{
+	margin-left: 25%;
+	max-width: 200px;
+    border: 0px solid #729a1b;
+    background-color: #729a1b;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.moto{
+	font-size: 12px;
+}
+
+#category{
+	background:#ece2de;
+	padding-bottom: 5%;
+	padding-left: 15%;
+	padding-right: 12%;
+	margin-top: 5%;
+}
+
+
+.black{
+	border-radius: 0 15px 0 0;
+	background-color: #444444;
+	color: #fff;
+}
+
+.orange{
+	border-radius: 15px 0px 0 0;
+	background-color: #FD7D16;
+}
+
+.orange p{
+	color: #fff;
+}
+
+.garis{
+	width: 83.2%;
+	height: 40px;
+	background-color: #ece2de;
+	width: 100%;
+	margin-top: 0%;
+	
+	}
+.garis p{
+
+	text-align: center;
+	padding-top: 1%;
+	font-size: 15px;
+}
+.tulisan p{
+	margin-left: 47.3%;
+	font-size: 15px;
+	margin-top: 5%;
+	
+}
+
+.mail{
+	margin-left: 11%;
+	margin-top: 5%;
+	width: 38%;
+	padding:3px 3px;
+    border: 2px solid #ece2de;
+}
+
+.pass{
+	margin-left: 5%;
+	margin-top: 5%;
+	text-decoration: none;
+    padding:3px 3px;
+    width: 39.5%;
+    border: 2px solid #ece2de;
+
+}
+
+.mess{
+	margin-top: 3%;
+	margin-left: 11%;
+	width: 83%;
+	 border: 2px solid #ece2de;
+	 padding: 30px;
+
+
+}
+
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D3CCCC;
+    font-size: 90%;
+    position: center;
+    opacity: 1;
+    }
+
+.send{
+	background-color: #FD7D16;
+	border: none;
+	border-radius: 5px;
+	margin-left: 46%;
+	width: 10%;
+	margin-top: 2%;
+	color: white;
+	text-align: center;
+
+}
+
+.yo{
+	width: 83.2%;
+	height: 40px;
+	background-color: #fd7d16;
+	width: 100%;
+	margin-top: 3%;
+}
+
+
+.isi p{
+	font-size: 15px;
+	color: #ffffff;
+
+}
+
+
+
+.navv {
+	width: 83.2%;
+	height: 40px;
+	background-color: #444444;
+	margin-left: 11.4%;
+	margin-top: 2%;
+	border-radius:  10px 10px 0 0; 
+}
+.cat {
+	width: 20%;
+	background-color: #FD7D16;
+	height: 100%;
+	border-radius: 10px 0 0 0;
+}
+.cat p {
+	text-align: center;
+	padding-top: 5%;
+	color: #ffffff;
+	font-size: 15px;
+}
+.menu {
+	float: right;
+	margin-right: 26%;
+	margin-top: -3.8%;
+}
+.menu a {
+	padding-left: 50px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #ffffff;
+}
+.menu a:hover {
+	color: #FD7D16;
+	transition: 0.4s;
+}
+.black a{
+	margin-left: 0px;
+	color: white;
+}
+
+.bawah{
+	background-color: #fff;
+	box-shadow: 3px 10px 4px 0px #646464;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.bawah ul{
+	padding-top: 10%;
+}
+
+.sec3{
+	padding-top: 10%;
+	padding-bottom: 2%;
+	background-color: #F9F9F9;
+}
+
+.logo3{
+	width: 350px;
+  	height: 350px;
+}
+
+.about{
+	padding-right: 10%;
+}
+.about h1{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.sec4{
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 10%;
+}
+
+.sec4 p{
+	padding-top: 2%;
+	margin-left: 8%;
+	padding-right: 10%;
+	font-size: 13px;
+}
+
+.pesan{
+	padding-top: 5%;
+	margin-left: 8%;
+}
+
+.hilang{
+	padding-top: 10%;
+	opacity: 0;
+	transition: opacity .35s ease;
+}
+
+.muncul:hover{
+	background-color: #e2e0de;
+	position: relative;
+}
+
+.muncul:hover .card-text{
+	position: absolute;
+	display: none;
+}
+
+.muncul:hover .hilang {
+	opacity: 1;
+}
+
+.muncul label{
+	font-weight: bold;
+	color: #fd7d16;
+}
+
+.sec5{
+	padding-bottom: 5%;
+	padding-top: 5%;
+	background-color: #F9F9F9;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 8%;
+}
+
+.round img{
+	border: solid 2px #fd7d16;
+	border-radius: 50%;
+	width: 128px;
+	height: 128px;
+}
+
+.sec6{
+	background-color: #2B2B2B;
+	padding-top:5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.logof{
+	width: 200px;
+  	height: 200px;
+}
+
+.sec6 span{
+	max-width: 10%;
+	color: #8d8d8d;
+	font-size: 15px;
+	
+}
+
+.sec6 p{
+	padding-top: 5%;
+	color: #8d8d8d;
+}
+
+.sec6 h1{
+	color: #fd7d16;
+	font-weight: bold;
+}

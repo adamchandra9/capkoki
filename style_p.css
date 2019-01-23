@@ -1,0 +1,159 @@
+body {
+	max-width: 100%;
+	margin: 0;
+	overflow-x:hidden; 
+	padding: 3%;
+}
+
+.kiri{
+	float: left;
+	width: 65%;
+}
+
+.kanan{
+	float: right;
+	width: 32%;
+}
+
+.ki{
+	float: left;
+}
+
+.ka{
+	float: right;
+}
+
+.kotak{
+	margin-bottom: 5%;
+	position: relative;
+	width: 100%;
+	border:solid 2px #d7d7d7;
+}
+
+.atas{
+	position: absolute;
+	top: 0;
+	background-color: #d7d7d7;
+	width: 100%;
+	height: 50px;
+}
+
+.atas2{
+	padding:2%;
+}
+
+.atas p{
+	font-weight: bold;
+	padding-left: 5%;
+}
+
+.kotak2{
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	border:solid 2px #d7d7d7;
+}
+
+.propil{
+	width: 40px;
+  	height: 40px;
+  	border-radius: 50%;
+}
+
+.kotak2 label{
+	padding-left: 2%;
+	position: relative;
+	top: -10px;
+	font-weight: bold;
+}
+
+.isi1{
+	padding: 2%;
+	position: relative;
+	height: 100px;
+}
+
+.isi1 p{
+	position: relative;
+	top: 10px;
+}
+
+.isi1 span{
+	position: relative;
+	font-size: 11px;
+	top: -40px;
+	padding-left: 5px;
+}
+
+.isi1 span input{
+	position: relative;
+	font-size: 11px;
+	top: 5px;
+	margin-left: 75px;
+}
+
+.isi2{
+	position: relative;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	background-color: #d7d7d7;
+}
+
+.isi2 input{
+	margin-left: 2%;
+	width: 60%;
+}
+
+.isi2 textarea{
+	position: ;
+	margin-left: 2%;
+	width: 60%;
+	height: 100px;
+}
+
+.isi2 p{
+	padding-left: 2%;
+}
+
+.total{
+	float: left;
+	margin-top: 20%;
+	padding-left: 10%;
+}
+
+.total2{
+	padding-right: 10%;
+	margin-top: 20%;
+	float: right;
+}
+
+.garis{
+	margin-top: 20%;
+}
+
+.b1{
+	padding-right: 10%;
+	float: right;
+}
+
+.b2{
+	padding-left: 10%;
+	float: left;
+}
+
+.tombol{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	border:solid 2px orange;
+	border-radius: 10px;
+	background-color: orange;
+	padding: 2%;
+	margin-bottom: 10%;
+}
+
+.tombol a{
+	text-decoration: none;
+	color: white;
+}
